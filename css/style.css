@@ -1,0 +1,278 @@
+/*walsの丸写し*/
+*{
+	box-sizing:border-box;
+}
+
+
+
+body{
+	margin: 0;
+    font-family:"Hiragino Kaku Gothic ProN",sans-serif;
+    cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clearfix::after {
+	content:"" ;
+	display: block;
+	clear:both;
+
+}
+
+.container {
+	width: 100%;
+    padding:0 15px;
+    margin: 0 auto; 
+}
+
+header {
+ height: 85px;
+
+ width: 100%;
+ background-color: red;
+ position: fixed;
+ top:0;
+ z-index: 10;
+
+}
+
+.header-right {
+	float: right;
+	margin-right: 25px;
+
+}
+
+
+.header-right a {
+	line-height: 45px;
+	padding: 0 25px;
+	margin-top: 9px;
+	color: pink;
+	display: block;
+	float: left;
+	transition: all 0.5s;
+	font-size: 30px;
+text-align: center;
+border-bottom: red solid 1px;
+
+}
+
+
+.header-right a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.menu-icon {
+	color: white;
+	float: right;
+	font-size:25px;
+	padding: 21px 0 ;
+	display: none;
+}
+    
+.header-logo {
+	float: left;
+	margin-top: 20px;
+	padding-left: 20px;
+	font-size: 50px;
+	color: white;
+}
+.header-comment {
+	font-size: 20px;
+	float:right;
+	color: pink;
+	margin-top:40px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top-wrapper {
+	padding:180px 0px 100px 0px ;
+	background-image: url("http://bluegreen.jp/photo/dl/zakka/018_1024.jpg");
+
+	background-size: cover;
+	color: blue;
+	height: 850px;
+	width: 1300px;
+}
+
+.container {
+	width: 1170px;
+	padding-right: 15px;
+	padding-left:15px;
+	margin: auto;
+}
+
+.container h1{
+	opacity: 0.8; 
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.container h2{
+	opacity: 0.6;
+	font-size: 20px;
+
+}
+
+
+
+
+
+
+
+.btn {
+	background-color: red;
+	color: pink;
+	border:red solid 1px;
+	margin: 20px;
+	border-radius: 10px;
+	padding: 10px 30px;
+	opacity: 0.5;
+	font-size: 23px;
+	text-align: center;
+
+}
+
+.btn:hover {
+	background-color: white;
+	color: red;
+  
+}
+
+
+
+.btn-wrapper {
+	width: 1200px;
+	float: center;
+	padding: 20px 70px 20px;
+	margin:270px 24px 50px;
+    text-align: center;
+	display: inline-block;
+	
+}
+
+
+
+
+
+.lesson-wrapper {
+	padding-bottom: 8px;
+    font-family:Century Gothic;
+	text-align: center;
+     background-image: url("http://hibana.xii.jp/bg/knit/003/C2+.png");
+	
+}
+
+.clear {
+	clear: left;
+}
+ 
+.heading {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	}
+
+
+.heading h3 {
+	font-weight: normal;
+	text-align: left;
+	font-size: 25px;
+	color: gray;
+    border:#ff9999 dotted 5px; 
+    padding:  2px 5px;
+    width: 200px;
+    text-align: center;
+
+}
+
+.lesson {
+	float: left;
+	width: 25%;
+}
+
+.lesson-icon {
+	position: relative;
+
+}
+  
+
+  
+	
+
+img{
+	transition: all 0.5s linear;
+}
+	
+
+
+img:hover {
+	transform: scale(1.2,1.2);
+
+}
+
+img {
+	height: 200px;
+	width: 300px;
+	padding:  10px 30px;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top:44%;
+  width: 100%;
+  color:white;
+}
+
+.text-contents {
+	width: 80%;
+	display:inline-block;
+	margin-top: 15px;
+	font-size: 15px;
+	color: #ff0066;
+	text-align: left;
+
+}
+
+
+
+
+.footer {
+	background-color: red;
+	width: 1300px;
+	height: 100px;
+
+}
+
+.footer-list  {
+	color: white;
+    float: right;
+	font-size: 15px;
+	padding-right: 40px;
+	margin-right: 30px; 
+    text-align: left;
+
+}
+
+li {
+	list-style:none;
+}
+
+
+
+
+
